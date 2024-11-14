@@ -4,13 +4,13 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 logging.basicConfig(level=logging.INFO)
 
 # Replace with your bot token
-TOKEN = '6470191100:AAEmVC9M3uahgAOafHXh27edpvm1zhLkdFk'
+TOKEN = '6824227205:AAGGM26UK5TddpoMTKXuzD06OUXsM_F2qCg'
 
 # Enter sender Telegram Chat ID (Target TG Chat I'D)
-SENDER_ID = 640352728
+SENDER_ID = 6541281150
 
 # Enter receiver Telegram Chat ID (My TG Chat I'D)
-RECEIVER_ID = 6786104218
+RECEIVER_ID = 6541281150
 
 def start(update, context):
     context.bot.send_message(chat_id=update.message.chat_id, text='Hello, Buddy! How Can I Help You?')
